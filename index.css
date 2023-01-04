@@ -1,0 +1,210 @@
+body{
+    background-color:rgb(218, 218, 243);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.web-top{
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.home-button{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    background-color:rgb(218, 218, 243);
+    margin-right: 500px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.home-button:hover{
+    font-size: 20px;
+    color: rgb(158, 9, 9);
+    margin-top: 3px;
+    border: none;
+    cursor: pointer
+}
+
+.Annie-button{
+    font-size: 20px;
+    color: black;
+    background-color:rgb(218, 218, 243);
+    margin-right: 80px;
+    margin-top: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.Annie-button:hover{
+    font-size: 20px;
+    color: rgb(158, 9, 9);
+    margin-top: 3px;
+    border: none;
+    cursor: pointer
+}
+
+.Elizabeth-button{
+    font-size: 20px;
+    color: black;
+    background-color:rgb(218, 218, 243);
+    margin-right: 80px;
+    margin-top: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.Elizabeth-button:hover{
+    font-size: 20px;
+    color: rgb(158, 9, 9);
+    margin-top: 3px;
+    border: none;
+    cursor: pointer
+}
+    
+.Ada-button{
+    font-size: 20px;
+    color: black;
+    background-color:rgb(218, 218, 243);
+    margin-top: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.Ada-button:hover{
+    font-size: 20px;
+    color: rgb(158, 9, 9);
+    margin-top: 3px;
+    border: none;
+    cursor: pointer
+}
+
+.header{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color:black;
+    color:white;
+    padding:20px;
+    padding-bottom: 20px;
+}
+
+.container{
+    width: 100%;
+    height:100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 78%;
+    left: 50%;
+    overflow: hidden;
+    box-shadow: -1px 5px 15px black; 
+    background-size: cover;   
+    z-index: -100;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+img{
+    width: 100%;   
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+.WIT{
+    margin-top: 800px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color:black;
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+
+.list1{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color:black;
+    padding:30px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.links{
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color:black;
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+
+.CFG{
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.W3S{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.copyright{
+    margin-top: 800px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color:rgb(6, 8, 20);
+    color:white;
+    padding:10px;
+}
